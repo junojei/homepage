@@ -53,7 +53,8 @@ body {
 @media screen and (max-width: 576px) {
 
     .main-info,
-    .contact_info_container {
+    .contact_info_container,
+    .strengths_and_weaknesses {
         flex-direction: column;
     }
 
@@ -329,4 +330,37 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+/* My block */
+
+.strengths {
+    flex: 1 1 60%;
+    margin-right: 60px;
+}
+
+.strengths__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.strengths__list {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
+.weaknesses {
+    flex: 1 1 60%;
+}
+
+.weaknesses__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.weaknesses__list {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
 }
